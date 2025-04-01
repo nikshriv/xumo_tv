@@ -1,0 +1,5 @@
+{
+  "name": "Xumo TV (Pioneer) Integration",
+  "domains": ["media_player","remote"],
+  "render_readme": true
+}
