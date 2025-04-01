@@ -1,0 +1,14 @@
+{
+  "domain": "xumo_tv",
+  "name": "Xumo TV",
+  "after_dependencies": ["thread"],
+  "codeowners": ["@Jc2k", "@bdraco"],
+  "config_flow": true,
+  "dependencies": ["zeroconf"],
+  "documentation": "https://www.home-assistant.io/integrations/homekit_controller",
+  "iot_class": "local_push",
+  "loggers": ["aiohomekit", "commentjson"],
+  "requirements": ["aiohomekit==3.2.8","getmac==0.9.5","wakeonlan==2.1.0"],
+  "zeroconf": ["_hap._tcp.local.", "_hap._udp.local."],
+  "version": 1.0
+}
